@@ -1,0 +1,20 @@
+name: vlm-bind
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - ipykernel
+  - ipywidgets
+  - pip:
+    - transformers
+    - einops==0.8.1
+    - matplotlib==3.10.3
+    - torch==2.8.0
+    - torchvision
+    - accelerate==1.8.0
+    - scikit-learn==1.7.0
+    - pycocotools==2.0.10
+    - timm
+    - wandb
+    - peft>=0.13.0
+    - pandas

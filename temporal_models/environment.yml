@@ -1,0 +1,24 @@
+name: temporal-models
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - ipykernel
+  - ipywidgets
+  - pip:
+    - transformers==4.41.2
+    - einops==0.8.1
+    - matplotlib==3.10.3
+    - torch==2.8.0
+    - torchvision
+    - accelerate==1.8.0
+    - scikit-learn==1.7.0
+    - pycocotools==2.0.10
+    - timm
+    - wandb
+    - peft>=0.13.0
+    - pandas
+    - decord
+    - git+https://github.com/LLaVA-VL/LLaVA-NeXT.git
+    - av
+    - open_clip_torch

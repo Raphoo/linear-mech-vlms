@@ -1,5 +1,20 @@
 # Linear Mechanisms for Spatiotemporal Reasoning in Vision Language Models
 
+This repository contains the implementation of the paper ["Linear Mechanisms for Spatiotemporal Reasoning in Vision Language Models"](https://arxiv.org/pdf/2601.12626) **(ICLR 2026)**. In this work, we show that VLMs such as LLaVA, LLaMA, Qwen, Gemma, and InternVL perform spatial reasoning via _spatial IDs_. We perform rigorous causal interventions and steering analyses to illustrate the IDs' function.
+
+If you find this repository useful, please consider citing our work!
+
+```bibtex
+@article{kang2026spatiotemporalreasoning,
+      title={Linear Mechanisms for Spatiotemporal Reasoning in Vision Language Models}, 
+      author={Raphi Kang and Hongqiao Chen and Georgia Gkioxari and Pietro Perona},
+      journal={ICLR},
+      year={2026},
+      url={https://arxiv.org/abs/2601.12626}, 
+}
+```
+
+
 
 ## Experiments
 
